@@ -5,7 +5,6 @@ import HomeScreen from "./components/todoScreen";
 import SettingsScreen from "./components/doneScreen";
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
-//Her oprettes en instans af tabnavigator.
 const Tab = createBottomTabNavigator();
 
 

@@ -5,7 +5,7 @@ import * as data from "./data.json"
 
 const todos = data.todo
 
-//HomeScreen komponenten tager en prop med og printer indholdet af denne i en <Text/>
+
 function HomeScreen() {
     return (
         <View style={styles.container}>
@@ -30,7 +30,6 @@ function HomeScreen() {
 
 export default HomeScreen
 
-//Lokal styling til brug i HomeScreen
 const styles = StyleSheet.create({
     container: {
         borderWidth: 20,

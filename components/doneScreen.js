@@ -5,7 +5,7 @@ import * as data from "./data.json"
 //henter data fra database
 const dones = data.done
 
-function SettingsScreen({prop}) { return (
+function SettingsScreen() { return (
     <View style={styles.container}>
         <Text style={styles.header}>You've completed these tasks:</Text> 
     {
@@ -26,7 +26,6 @@ function SettingsScreen({prop}) { return (
 
 export default SettingsScreen
 
-//Lokal styling til brug i SettingsScreen
 const styles = StyleSheet.create({
     container: {
         paddingTop:100,
