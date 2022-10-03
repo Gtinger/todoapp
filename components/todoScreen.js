@@ -9,7 +9,7 @@ const todos = data.todo
 function HomeScreen() {
     return (
         <View style={styles.container}>
-            <Text style={styles.header}>This is you current todo list</Text>
+            <Text style={styles.header}>This is you current to-do list:</Text>
 
   
         {
@@ -33,8 +33,6 @@ export default HomeScreen
 //Lokal styling til brug i HomeScreen
 const styles = StyleSheet.create({
     container: {
-        paddingTop:100,
-        paddingBottom:100,
         borderWidth: 20,
         flex: 1,
         justifyContent: 'center',

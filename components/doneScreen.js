@@ -2,16 +2,12 @@ import {StyleSheet, Text, View} from "react-native";
 import * as React from "react";
 import * as data from "./data.json"
 
-
+//henter data fra database
 const dones = data.done
 
-
-//SettingsScreen komponenten tager en prop med og printer indholdet af denne prop i en <Text>
 function SettingsScreen({prop}) { return (
     <View style={styles.container}>
-        <Text style={styles.header}>You've completed these tasks:</Text>
-
-
+        <Text style={styles.header}>You've completed these tasks:</Text> 
     {
         dones.map((done,key)=>{
             return(
